@@ -2,6 +2,7 @@ import Image from "next/image";
 import Logo from "@/images/logo.png";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import StoryWriter from "@/components/StoryWriter";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
             <Link href="/stories">Explore Story Library</Link>
           </Button>
         </div>
+
+        <StoryWriter />
       </section>
     </main>
   );
